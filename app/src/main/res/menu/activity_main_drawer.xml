@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/visi_misi"
+            android:icon="@drawable/visi_misi"
+            android:title="Visi dan Misi" />
+        <item
+            android:id="@+id/sejarah"
+            android:icon="@drawable/sejarah"
+            android:title="Sejarah" />
+        <item
+            android:id="@+id/pengumuman"
+            android:icon="@drawable/pengumuman"
+            android:title="Pengumuman" />
+        <item
+            android:id="@+id/event"
+            android:icon="@drawable/event"
+            android:title="Event" />
+        <item
+            android:id="@+id/guru"
+            android:icon="@drawable/guru"
+            android:title="Tenaga Pengajar" />
+        <item
+            android:id="@+id/eskul"
+            android:icon="@drawable/eskul"
+            android:title="Ekstrakulikuler" />
+        <item
+            android:id="@+id/prestasi"
+            android:icon="@drawable/prestasi"
+            android:title="Prestasi" />
+        <item
+            android:id="@+id/program_keahlian"
+            android:icon="@drawable/program_keahlian"
+            android:title="Program Keahlian" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/laporkan"
+                android:title="Laporkan" />
+
+        </menu>
+    </item>
+
+</menu>
