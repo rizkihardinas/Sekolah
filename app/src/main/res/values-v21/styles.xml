@@ -1,0 +1,17 @@
+<resources>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+
+    </style>
+    
+    <style name="Custom.TextLayout" parent="TextAppearance.AppCompat">
+        <item name="android:colorAccent">#FFF</item>
+        <item name="android:textColor">#FFF</item>
+        <item name="android:textColorHint">#FFF</item>
+        <item name="android:colorControlNormal"></item>
+        <item name="android:colorControlActivated"></item>
+    </style>
+</resources>
